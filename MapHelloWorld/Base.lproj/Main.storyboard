@@ -26,7 +26,7 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNi-s4-ybT">
-                                <rect key="frame" x="313" y="28" width="47" height="30"/>
+                                <rect key="frame" x="16" y="28" width="47" height="30"/>
                                 <state key="normal" title="Center"/>
                                 <connections>
                                     <action selector="centerButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xMb-aL-4Tp"/>
@@ -37,11 +37,11 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="mww-AI-NdG" secondAttribute="trailing" id="57p-1v-4nQ"/>
                             <constraint firstItem="mww-AI-NdG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="FWU-oJ-F00"/>
-                            <constraint firstItem="rNi-s4-ybT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="WMo-yv-pRf"/>
-                            <constraint firstItem="rNi-s4-ybT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="297" id="aRe-RB-erc"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rNi-s4-ybT" secondAttribute="bottom" constant="609" id="aX0-uc-wqj"/>
+                            <constraint firstItem="rNi-s4-ybT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Q6S-cN-Jjw"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="rNi-s4-ybT" secondAttribute="leading" id="S5V-4Z-dRQ"/>
                             <constraint firstItem="mww-AI-NdG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="dRe-eP-yCQ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="rNi-s4-ybT" secondAttribute="trailing" constant="-1" id="kgA-4s-M3D"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rNi-s4-ybT" secondAttribute="bottom" constant="609" id="kke-jc-N0v"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rNi-s4-ybT" secondAttribute="trailing" constant="296" id="n4i-aH-eNP"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mww-AI-NdG" secondAttribute="bottom" id="ruZ-JY-tiu"/>
                         </constraints>
                     </view>
