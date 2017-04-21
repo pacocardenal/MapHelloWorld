@@ -91,6 +91,24 @@ extension ViewController: MKMapViewDelegate {
         return annotationView
     }
     
+    func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
+        guard let annotation = view.annotation, let titleOptional = annotation.title, let title = titleOptional else { return }
+        
+        print("Select \(title)")
+    }
+    
+    func mapView(_ mapView: MKMapView, didDeselect view: MKAnnotationView) {
+        guard let annotation = view.annotation, let titleOptional = annotation.title, let title = titleOptional else { return }
+        
+        print("Deselect \(title)")
+    }
+    
+    func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
+        guard let annotation = view.annotation, let titleOptional = annotation.title, let title = titleOptional else { return }
+        
+        print("Select accesory view \(title)")
+    }
+    
 }
 
 class MapPin: NSObject, MKAnnotation {
